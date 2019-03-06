@@ -1,14 +1,21 @@
 from setuptools import setup
 
-requirements = ['dxfgrabber']
+requirements = ['dxfgrabber', 'shapely']
 
 setup_requirements = ['pytest-runner', ]
 
-test_requirements = ['pytest', ]
+test_requirements = ['pytest']
 
 setup(
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Natural Language :: English',
+        'Programming Language :: Python :: 3.7',
+    ],
     name='dxf2shapely',
-    version='0.1',
+    version='1.0',
     packages=['dxf2shapely'],
     url='https://github.com/Ricyteach/dxf2shapely',
     install_requires=requirements,

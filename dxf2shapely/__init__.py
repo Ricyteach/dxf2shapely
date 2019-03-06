@@ -1,1 +1,1 @@
-from .d2s import shapely_polygons
+from .d2s import polygonize_dxf
