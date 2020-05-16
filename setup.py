@@ -1,6 +1,6 @@
 from setuptools import setup
 
-requirements = ['dxfgrabber', 'shapely']
+requirements = ['ezdxf', 'shapely']
 
 setup_requirements = ['pytest-runner', ]
 
@@ -15,7 +15,7 @@ setup(
         'Programming Language :: Python :: 3.7',
     ],
     name='dxf2shapely',
-    version='1.0',
+    version='1.1',
     packages=['dxf2shapely'],
     url='https://github.com/Ricyteach/dxf2shapely',
     install_requires=requirements,
