@@ -3,7 +3,7 @@ Very limited tool for grabbing line segments from pre-curated dxf files and turn
 
 ```python
 from dxf2shapely import polygonize_dxf
-import shapely.geometry.Polygon
+import shapely.geometry
 
 polygons = polygonize_dxf('some_file.dxf')
 assert all(type(p)==shapely.geometry.Polygon for p in polygons) 
